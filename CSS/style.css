@@ -1,9 +1,14 @@
-img {
+img{
   border-radius: 40%;
   width: 210px;
   height: 250px;
   object-fit:cover;
   object-position: 100% 0;
+  border: 2px solid #CAF7E3;
+}
+
+img:hover{
+  border: 2px solid white;
 }
 
 body{
@@ -26,4 +31,8 @@ hr{
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
+}
+
+a:hover{
+  color: #00A19D;
 }
